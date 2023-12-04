@@ -1,0 +1,215 @@
+  @import url('https://fonts.googleapis.com/css2?family=Almarai&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital@1&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap');
+*{
+    font-family: 'Almarai', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header {background-color: rgba(25, 43, 104, 0.644);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    z-index: 999;
+}
+.logo{
+    color:aqua;
+    font-size: 1.8em;
+    font-weight: 700;
+    text-decoration:none;
+    text-transform: uppercase;
+}
+.navigation a{
+         color:aqua;
+         font-size: 1.1em;
+         font-weight: 500;
+         text-decoration: none;
+         padding-left: 30px;
+}
+
+.navigation a:hover{
+    color:rgb(19, 139, 139);
+}
+section{
+    padding: 300px 250px;
+   
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    background: url(7k0riwex1lp61.webp)no-repeat;
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-attachment: fixed;
+
+} 
+.main h2{
+    color:aliceblue; 
+    font-size: 1.4em;
+    font-weight: 500;
+}
+.main h2 span{
+    color:aqua;
+    font-size: 3em;
+    font-weight: 600;
+    display: inline-block;
+    padding:10px;
+}
+.main h3{
+    color: aliceblue;
+    font-size: 2em;
+    font-weight: 700;
+}
+.main .main-btn{
+    color: aliceblue;
+    background-color:aqua;
+    font-size: 1.1em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    margin:20px 0 30px;
+    border-radius:10px;   
+    transition: 0.4s ease; 
+    
+}
+
+.main .main-btn:hover{
+    background-color:rgb(12, 173, 173);
+    color:white ;
+    transform:scale(1.1) ;
+}
+.social-icons a{
+    color: aliceblue;
+    font-size: 1.5em;
+    padding-right: 20px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 2.2em;
+    font-weight: 700;
+    margin-bottom: 30px;
+    margin: 15px;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+   width:21.25em;
+    box-shadow: 0px 5px 15px #033d44;
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.4s ease; 
+}
+.card:hover{
+    transform:scale(1.1) ;
+}
+.icon{
+    color:aqua;
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color:aqua;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.cards{
+    background-color:rgb(10, 16, 27);
+}
+.projects{
+background-color:rgb(10, 16, 27) ;
+}
+.projects .content{
+    margin-top: 30px;
+}
+.project-card{
+    background-color: aliceblue;
+    border: 1px solid aliceblue;
+    border-radius: 10px;
+    width: 23em;
+    overflow: hidden;
+    transition: 0.4s ease;
+    min-height: 14em;
+    margin: 20px;
+}
+.project-card:hover{
+    transform: scale(1.1);
+}
+.project-card:hover .project-image{
+    opacity: 0.9;
+}
+.project-image img{
+    width: 100%;
+}
+.project-info{
+    padding: 1em;
+}
+.project-category{
+font-size: .8em;
+color: black;
+}
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800px;
+    margin-top: 10px;
+}
+.more-details{
+    text-decoration: none;
+    color:rgb(12, 206, 206) ;
+}
+.more-details:hover{
+    color:rgb(19, 139, 139) ;
+}
+.cards-contact{
+    background-color: rgb(10, 16, 27);
+}
+.footer{
+ background-color:rgb(25, 43, 104);   
+ padding: 2em;
+ display: flex;
+ justify-content: space-between;
+ color: aliceblue;
+}
+.footer-title{
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.footer p span{
+    color:aqua;
+}
+@media (max-width:1023px) {
+    header{
+        padding: 12px 20px;
+    }
+    .navigation a{
+        padding-left: 10px;
+    }
+    .title{
+        font-size: 1.8em;
+    }
+}
